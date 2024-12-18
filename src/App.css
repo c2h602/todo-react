@@ -1,0 +1,50 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.card {
+  background-color: #F5F5F5;
+  padding: 2em;
+  border-radius: 10px;
+}
+
+.input {
+  border-radius: 10px;
+  padding: 0.5em 1.2em;
+  border: 1px solid;
+  border-color: transparent;
+  font-size: 1em;
+  color: rgb(87, 81, 81);
+}
+
+.input:hover,
+.input:focus {
+  border-color: hsl(3, 8%, 57%);
+  outline: none;
+}
+
+::placeholder {
+  color: hsl(0, 12%, 87%);
+}
+
+.item {
+  list-style-type: none;
+  font-weight: 300;
+  color: rgb(87, 81, 81)
+}
+
+.card__list {
+  text-align: start;
+  cursor: pointer;
+}
+
+.btnActive {
+  margin: 1em;
+}
+
+.btnAdd {
+  margin-left: 0.5em;
+}

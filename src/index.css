@@ -1,0 +1,59 @@
+:root {
+  font-family: "IBM Plex Mono", monospace;
+  line-height: 1.5;
+  font-weight: 100;
+  font-style: normal;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+  color: hsl(3, 8%, 57%);
+}
+
+button {
+  border-radius: 10px;
+  border: 1px solid transparent;
+  padding: 0.4em 1.2em;
+  font-size: 1em;
+  font-weight: 300;
+  font-family: inherit;
+  color: white;
+  background-color: hsl(3, 8%, 57%);
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  background-color: hwb(0 49% 45%);
+}
+
+
+/* @media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+} */
